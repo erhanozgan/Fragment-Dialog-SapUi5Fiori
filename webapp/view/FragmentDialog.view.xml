@@ -1,0 +1,38 @@
+<mvc:View controllerName="fragmentDialog.fragmentdialog.controller.FragmentDialog"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <Table items="{/student}" mode="SingleSelectMaster" select="handleItemPress">
+            
+                <columns>
+                    <Column >
+                        <Text text="Name"></Text>
+                    </Column>
+                    <Column >
+                        <Text text="Gender"></Text>
+                    </Column>
+                    <Column >
+                        <Text text="Date Of Birth"></Text>
+                    </Column>
+                    <Column hAlign="Center">
+                        <Text text="Father Name"></Text>
+                    </Column>
+                </columns>
+                
+                <items>
+                <ColumnListItem>
+                    <cells>
+                        <Text text="{firstname}"></Text>
+                        <Text text="{gender}"></Text>
+                        <Text text="{dateofbirth}"></Text>
+                        <Text text="{fathername}"></Text>
+                    </cells>
+                </ColumnListItem>
+                </items>
+
+            </Table>
+        
+        </content>
+    </Page>
+</mvc:View>

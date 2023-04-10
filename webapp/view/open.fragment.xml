@@ -1,0 +1,56 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:c="sap.ui.core"
+    xmlns:l="sap.ui.Layout"
+    xmlns:f="sap.ui.Layout.form"
+    xmlns:ui="sap.ui">
+    
+        <Dialog resizable="true" showHeader="false">
+            <content>
+            <HBox justifyContent="End">
+                <core:Icon src="sap-icon://decline" press="handleDialogClose"></core:Icon>
+            </HBox>
+
+            <HBox class="sap.UiTinyMargin" width="100%" justifyContent="Center">
+            <HBox width="50%" justifyContent="Start">
+                <Label text="First Name:"></Label>
+            </HBox>
+            <HBox width="50%" justifyContent="Start">
+                <Label text="{firstname}"></Label>
+            </HBox>
+
+                        <HBox class="sap.UiTinyMargin" width="100%" justifyContent="Center">
+            <HBox width="50%" justifyContent="Start">
+                <Label text="Gender:"></Label>
+            </HBox>
+            <HBox width="50%" justifyContent="Start">
+                <Label text="{gender}"></Label>
+            </HBox>
+            </HBox>
+
+            <HBox class="sap.UiTinyMargin" width="100%" justifyContent="Center">
+            <HBox width="50%" justifyContent="Start">
+                <Label text="Date Of Birth:"></Label>
+            </HBox>
+            <HBox width="50%" justifyContent="Start">
+                <Label text="{dateofbirth}"></Label>
+            </HBox>
+            </HBox>
+
+
+            <HBox class="sap.UiTinyMargin" width="100%" justifyContent="Center">
+            <HBox width="50%" justifyContent="Start">
+                <Label text="Father Name:"></Label>
+            </HBox>
+            <HBox width="50%" justifyContent="Start">
+                <Label text="{fathername}"></Label>
+            </HBox>
+            </HBox>
+            </HBox>
+            </content>
+        
+        </Dialog>
+    
+    
+    </core:FragmentDefinition>

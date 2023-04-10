@@ -1,7 +1,9 @@
+
+
 ## Application Details
+![fragment-dialog](https://user-images.githubusercontent.com/29740611/230959044-8184a9f6-0691-4294-beae-d832900ca957.png)
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Mon Apr 10 2023 19:51:51 GMT+0300 (GMT+03:00)|
 |**App Generator**<br>@sap/generator-fiori-freestyle|
 |**App Generator Version**<br>1.9.3|
 |**Generation Platform**<br>Visual Studio Code|
